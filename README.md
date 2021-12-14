@@ -36,4 +36,4 @@ The one in \*ProjectTemplates is the one visual studio will actually find.
 
 The Template will now be imported but it will not be sorted under C++, you will have to remove all filters in the create project dialog to see it.
 
-To fix this open the the new zip file and modify the \*.vstemplate file. within the <something> tags add the following tag: <
+To fix this open the the new zip file and modify the \*.vstemplate file. within the <LanguageTag> tags add the following tag: <LanguageTag>Cpp</LanguageTag>
